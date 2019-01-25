@@ -19,7 +19,7 @@ main:
 	mov	DWORD PTR [rbp-24], eax ; [DWORD PTR [rbp-24]] <- [4]
 	mov	eax, DWORD PTR [rbp-32] ; [4] <- DWORD PTR [rbp-32]
 	sub	eax, DWORD PTR [rbp-28] ; eax <- [2] - DWORD PTR [rbp-28] ; eax <- [0]
-	mov	DWORD PTR [rbp-20], eax ; DWORD PTR [rbp-20] <- [2]
+	mov	DWORD PTR [rbp-20], eax ; DWORD PTR [rbp-20] <- [0]
 	mov	eax, DWORD PTR [rbp-32] ; [2] <- DWORD PTR [rbp-32]
 	imul	eax, DWORD PTR [rbp-28] ; eax <- [2] * DWORD PTR [rbp-28] ; eax <- [4]
 	mov	DWORD PTR [rbp-16], eax ; DWORD PTR [rbp-16] <- [4]
